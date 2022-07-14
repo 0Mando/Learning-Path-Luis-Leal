@@ -10,14 +10,50 @@
     <h1 id="title">HTML Forms</h1>
 
     <form>
+        <span style="color: red;">*</span>
         <label for="username">Username: </label>
-        <input type="text" id="username">
+        <input type="text" id="username" name="username" placeholder="username" required>
+
         <br><br>
+        <span style="color: red;">*</span>
         <label for="email">Email:</label>
-        <input type="email" id="email">
+        <input type="email" id="email" name="email" placeholder="your email" required>
+
         <br><br>
+        <span style="color: red;">*</span>
         <label for="password">Password:</label>
-        <input type="password" id="password">
+        <input type="password" id="password" name="password" placeholder="choose a password" required>
+
+        <p>Select age:</p>
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-2">26-50</label>
+        <input type="radio" name="age" value="51-Death" id="option-3">
+        <label for="option-3">51-Death</label>
+
+        <br><br>
+
+        <label for="question">Security question:</label>
+        <select name="question" id="question">
+            <option value="q1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, labore.</option>
+            <option value="q2">Lorem ipsum dolor sit.</option>
+            <option value="q3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</option>
+        </select>
+
+        <br><br>
+        <label for="answer">Answer</label>
+        <input type="text" id="answer" name="answer">
+        <br><br>
+
+        <label for="bio">Your bio</label>
+        <br>
+        <textarea name="bio" id="bio" cols="40" rows="20" placeholder="Enter your bio"></textarea>
+
+
+        <br><br>
+        <input type="submit" value="Submit">
     </form>
+    <script src="form.js"></script>
 </body>
 </html>
