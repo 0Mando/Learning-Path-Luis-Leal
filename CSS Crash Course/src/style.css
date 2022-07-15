@@ -1,3 +1,4 @@
+/*
 p{
     font-family: sans-serif;
     font-weight: normal;
@@ -8,7 +9,7 @@ p{
     background-color: blanchedalmond;
     margin: 10px;
 }
-
+*/
 #title:hover{
     background-color: blue;
     color: white;
@@ -45,4 +46,16 @@ button:hover{
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+p{
+    color: red !important;
+}
+
+.body-text{
+    color: blue;
+}
+
+#myParagraph{
+    color: green;
 }
