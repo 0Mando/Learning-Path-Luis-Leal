@@ -1,3 +1,19 @@
-.body-text strong{
-    color: #1b986e;
+p{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    border: 2px dashed red;
+    width: 200px;
+    height: 300px;
+    background-color: blanchedalmond;
+    margin: 50px;
+}
+
+#title:hover{
+    background-color: blue;
+    color: white;
+}
+
+input:focus{
+    background-color: red;
 }
