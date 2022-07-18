@@ -8,3 +8,5 @@ HTML Section
 ---
 CSS AND PREPROCESSORS Section
 * [CSS Crash Course](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/CSS%20Crash%20Course)
+* [Display Block & Inline-Block](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Display%20CSS/Block%20%26%20Inline-Block)
+* [Flexbox](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Display%20CSS/Flexbox)
