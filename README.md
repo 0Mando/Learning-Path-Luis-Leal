@@ -7,3 +7,4 @@ HTML Section
 * [Meta Tags for HTML](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Meta%20Tags)
 ---
 CSS AND PREPROCESSORS Section
+* [CSS Crash Course](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/CSS%20Crash%20Course)
