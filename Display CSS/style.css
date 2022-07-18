@@ -1,0 +1,18 @@
+.box{
+    /*Estilo por defecto: display: block; */
+    width: 200px;
+    height: 200px;
+    background-color: #484545;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+p{
+    /*Estilo por defecto: display: block; */
+    display: inline-block;
+}
+
+a{
+    /*Estilo por defecto: display: inline; */
+    display: block;
+}
