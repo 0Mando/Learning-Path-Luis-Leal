@@ -36,16 +36,24 @@ body{
 
 .main{
     @include flexCenter(row);
-    width: 80%;
+    width: 80% - 40%;
     margin: 0 auto;
 
-    #{&}__paragraph{
+    #{&}__paragraph1{
         // font-weight: map-get($map: $font-weights, $key:bold );
         font-weight: weight(bold);
         &:hover{
             color: red;
         }
     }
+
+    #{&}__paragraph2{
+        @extend .main__paragraph1;
+        &:hover{
+            color: blue;
+        }
+    }
+
     @include mobile{
         flex-direction: column;
     }
