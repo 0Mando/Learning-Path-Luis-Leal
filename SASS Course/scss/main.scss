@@ -1,0 +1,48 @@
+@import './resests';
+@import './variables';
+
+//* Definir el tamaño de letra con ayuda del "arreglo" -> $font-weights
+//* definido en ./variables
+//* @weight-name: Nombre del tamaño de letra
+//* @return: Tamaño de letra
+@function weight($weight-name){
+    @return map-get($map: $font-weights, $key: $weight-name)
+}
+
+@mixin flexCenter ($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin theme($light-theme: true) {
+    @if $light-theme{
+        background-color: lighten($color: $primary-color, $amount: 100%);
+        color: darken($color: $text-color, $amount: 100%);
+    }
+}
+
+body{
+    background-color: $primary-color;
+    color: $text-color;
+}
+
+.main{
+    @include flexCenter(column);
+    width: 80%;
+    margin: 0 auto;
+
+
+    #{&}__paragraph{
+        // font-weight: map-get($map: $font-weights, $key:bold );
+        font-weight: weight(bold);
+        &:hover{
+            color: pink;
+        }
+    }
+}
+
+.light{
+    @include theme(true)
+}
