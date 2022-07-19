@@ -10,3 +10,10 @@ CSS AND PREPROCESSORS Section
 * [CSS Crash Course](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/CSS%20Crash%20Course)
 * [Display Block & Inline-Block](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Display%20CSS/Block%20%26%20Inline-Block)
 * [Flexbox](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Display%20CSS/Flexbox)
+* [Block-&-Inline-Block](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Display%20CSS/Block%20%26%20Inline-Block)
+* [Grid](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Display%20CSS/Grid)
+* [Layouts](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Display%20CSS/Layouts)
+---
+SASS Section
+*[SASS-Course](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/SASS%20Course)
+*[SASS-Project](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Project%20SASS)
