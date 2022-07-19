@@ -15,5 +15,5 @@ CSS AND PREPROCESSORS Section
 * [Layouts](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Display%20CSS/Layouts)
 ---
 SASS Section
-*[SASS-Course](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/SASS%20Course)
-*[SASS-Project](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Project%20SASS)
+* [SASS-Course](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/SASS%20Course)
+* [SASS-Project](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Project%20SASS)
