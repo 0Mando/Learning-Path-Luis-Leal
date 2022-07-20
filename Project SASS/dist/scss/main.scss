@@ -1,4 +1,4 @@
-@import 'config', 'home', 'menu';
+@import 'config', 'home', 'menu', 'about';
 
 body{
     background-color: $primary-color;
@@ -51,4 +51,8 @@ footer{
     text-align: right;
     padding: 1rem;
     color: set-text-color($primary-color);
+}
+
+.text-secondary{
+    color: $secondary-color;
 }
