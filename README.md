@@ -16,4 +16,4 @@ CSS AND PREPROCESSORS Section
 ---
 SASS Section
 * [SASS-Course](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/SASS%20Course)
-* [SASS-Project](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Project%20SASS)
+* [SASS-Project](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Project%20SASS) | [Deploy-Project](https://0mando.github.io/Project-Sass-Portfolio/dist/)
