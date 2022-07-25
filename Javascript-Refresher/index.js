@@ -51,3 +51,19 @@ c = c + "String!";
 var properCamelCase;
 
 properCamelCase = "JS Case Sensitivity";
+
+// --------------------------------------------------------------------------------------
+//Basic Math
+var sum = 10 + 10;
+console.log(sum)
+
+var difference = 45 - 33;
+console.log(difference)
+
+var product = 8 * 10;
+console.log(product)
+
+var quotient = 66 / 3;
+console.log(quotient)
+
+// --------------------------------------------------------------------------------------
