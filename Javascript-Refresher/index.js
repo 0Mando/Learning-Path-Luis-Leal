@@ -439,3 +439,62 @@ function cc(card){
 
 cc(2);cc('K');cc(7);cc('K');cc('A');
 console.log(cc(4));
+// --------------------------------------------------------------------------------------
+// Objects in JS
+var myDog = {
+    "name": "Nescafe",
+    "legs": 4,
+    "tails": 2,
+    "friends":[]
+};
+
+var testObject = {
+    "hat": "ballcap",
+    "shirt": "jersey",
+    "shoes": "cleats",
+    "the drink": "coca cola"
+};
+
+var hatValue = testObject.hat;
+var shirtValue = testObject.shirt;
+var drinkValue = testObject["the drink"];
+
+console.log(hatValue);
+console.log(shirtValue);
+console.log(drinkValue);
+
+var otherObject = {
+    12 : "Namath",
+    16 : "Montana",
+    19 : "Unitas"
+}
+
+var playerNumber = 16;
+var player = otherObject[playerNumber];
+console.log(player);
+
+myDog.name = "Solovino";
+console.log(myDog.name);
+
+myDog['bark'] = "guaf guaf";
+console.log(myDog);
+
+delete myDog.bark;
+console.log(myDog);
+// --------------------------------------------------------------------------------------
+var myTestObject = {
+    gift : "pony",
+    pet : "kitten",
+    bed : "sleigh"
+};
+
+function checkObj(checkProp){
+    if(myTestObject.hasOwnProperty(checkProp)){
+        return myTestObject[checkProp];
+    }else{
+        return "Not Found";
+    }
+}
+
+console.log(checkObj("gift"));
+// --------------------------------------------------------------------------------------
