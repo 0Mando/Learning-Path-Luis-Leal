@@ -178,3 +178,45 @@ function wordBlanks (myNoun, myAdjective, myVerb, myAdverb){
 }
 
 console.log(wordBlanks("dog", "big", "ran", "quickly"))
+// --------------------------------------------------------------------------------------
+var myArray = ["Luis", 20];
+console.log(myArray);
+
+var otherArray = [["Tomates",24],["Cebolla",15]]
+var data = [40,30,20]
+console.log(data[2])
+
+data[1] = 10;
+console.log(data)
+
+var arrayNumbers = [
+    [1,2,3], // 0
+    [4,5,6], // 1
+    [7,8,9], // 2
+    [// 3
+        //0  1  2
+        [10,11,12], //0
+        13, // 1
+        14 // 2
+    ]
+];
+var myData = arrayNumbers[3][0][1];
+console.log(myData);
+
+// Push function: Add a element
+var myContent = [["Grogu", 500], ["Mando", 30]];
+myContent.push(["Luke", 28]);
+console.log(myContent);
+
+// Pop function: Remove the last element
+myContent.pop()
+console.log(myContent);
+
+// Shift function: Remove the first element
+myContent.shift()
+console.log(myContent)
+
+//Unshift function: Add a element on the first position
+myContent.unshift(["Ashoka", 43])
+console.log(myContent)
+// --------------------------------------------------------------------------------------
