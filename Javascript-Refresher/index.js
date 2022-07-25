@@ -32,4 +32,7 @@ var b = 2; //Assigment Operator
 a = 7;
 b = a;
 
-console.log(a)
+// console.log(a)
+
+// --------------------------------------------------------------------------------------
+var a = 9; // Initializing variables
