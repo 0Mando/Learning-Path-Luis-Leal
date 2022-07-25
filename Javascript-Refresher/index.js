@@ -171,3 +171,10 @@ console.log(largeSentence.length);
 var getACharacter = "Mandalorian";
 console.log(getACharacter[3]);
 // --------------------------------------------------------------------------------------
+function wordBlanks (myNoun, myAdjective, myVerb, myAdverb){
+    var result = "";
+    result += "The "+myAdjective+" "+myNoun+" "+myVerb+" to the store "+myAdverb
+    return result;
+}
+
+console.log(wordBlanks("dog", "big", "ran", "quickly"))
