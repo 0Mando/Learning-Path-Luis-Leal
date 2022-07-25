@@ -120,3 +120,7 @@ q /= 2;
 
 w = w / 3;
 w /= 3;
+// --------------------------------------------------------------------------------------
+// Declare String Variables
+var firstName = "Alan"
+var lastName = "Turing"
