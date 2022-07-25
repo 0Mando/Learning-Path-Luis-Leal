@@ -307,3 +307,16 @@ var testArray = [1,2,3,4,5];
 console.log("Before: "+JSON.stringify(testArray));
 console.log(nextLine(testArray,6));
 console.log("After: "+JSON.stringify(testArray));
+// --------------------------------------------------------------------------------------
+function welcomeToBooleans(){
+    return true;
+}
+
+function trueOrFalse(option){
+    if(option){
+        return "Yes, that was true";
+    }
+    return "No, that was false";
+}
+
+console.log(trueOrFalse(true));
