@@ -128,3 +128,8 @@ var lastName = "Turing"
 // --------------------------------------------------------------------------------------
 // var str = "I am a "double quoted" string inside "double quotes"";
 var str = "I am a \"double quoted\" string inside \"double quotes\"";
+
+// --------------------------------------------------------------------------------------
+var myStr = '<a href="http://www.google.com">Google</a>';
+
+// --------------------------------------------------------------------------------------
