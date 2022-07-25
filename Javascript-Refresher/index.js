@@ -46,4 +46,8 @@ var c = "I am a ";
 a = a + 1;
 b = b + 5;
 c = c + "String!";
+// --------------------------------------------------------------------------------------
+// Declaration variables
+var properCamelCase;
 
+properCamelCase = "JS Case Sensitivity";
