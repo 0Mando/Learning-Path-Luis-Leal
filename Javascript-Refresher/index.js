@@ -220,3 +220,10 @@ console.log(myContent)
 myContent.unshift(["Ashoka", 43])
 console.log(myContent)
 // --------------------------------------------------------------------------------------
+var myList= [
+    ["cereal",3],
+    ["milk", 2],
+    ["bannanas",3],
+    ["juice",2],
+    ["eggs",12]
+];
