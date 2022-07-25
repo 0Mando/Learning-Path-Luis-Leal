@@ -227,3 +227,17 @@ var myList= [
     ["juice",2],
     ["eggs",12]
 ];
+// --------------------------------------------------------------------------------------
+function ourReusableFunction(){
+    console.log("Hello world");
+}
+
+ourReusableFunction();
+ourReusableFunction();
+ourReusableFunction();
+
+function addTwoNumbers(a, b){
+    console.log(a + b);
+}
+
+addTwoNumbers(5,2);
