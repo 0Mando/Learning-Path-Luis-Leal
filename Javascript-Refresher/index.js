@@ -241,3 +241,38 @@ function addTwoNumbers(a, b){
 }
 
 addTwoNumbers(5,2);
+// --------------------------------------------------------------------------------------
+// Global Scope
+
+var myGlobal = 10;
+
+function function1(){
+    oppsGlobal = 5;
+}
+
+function function2(){
+    var output = "";
+    if(typeof myGlobal != "undefined"){
+        output += "My Global: " + myGlobal;
+    }
+
+    if(typeof oppsGlobal != "undefined"){
+        output += "oppsGlobal: " + oppsGlobal;
+    }
+
+    console.log(output);
+}
+
+function1();
+function2();
+
+// --------------------------------------------------------------------------------------
+var outfit = "T-shirt"
+
+function myOutfit(){
+    var outfit = "sweather";
+    return outfit;
+}
+
+console.log(myOutfit());
+console.log(outfit);
