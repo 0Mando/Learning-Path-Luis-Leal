@@ -164,3 +164,6 @@ var someAdjective = "worthwhile";
 var myStr = "Learning to code is ";
 myStr += someAdjective;
 console.log(myStr)
+// --------------------------------------------------------------------------------------
+var largeSentence = "Lorem ipsum aehru veaee vaeoruv"
+console.log(largeSentence.length);
