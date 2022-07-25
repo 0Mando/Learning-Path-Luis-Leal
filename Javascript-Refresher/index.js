@@ -297,3 +297,13 @@ function addThree(){
 
 console.log(addThree()) // undefined
 // --------------------------------------------------------------------------------------
+function nextLine(array,item){
+    array.push(item);
+    return array.shift();
+}
+
+var testArray = [1,2,3,4,5];
+
+console.log("Before: "+JSON.stringify(testArray));
+console.log(nextLine(testArray,6));
+console.log("After: "+JSON.stringify(testArray));
