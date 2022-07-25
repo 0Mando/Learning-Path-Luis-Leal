@@ -133,3 +133,18 @@ var str = "I am a \"double quoted\" string inside \"double quotes\"";
 var myStr = '<a href="http://www.google.com">Google</a>';
 
 // --------------------------------------------------------------------------------------
+/**
+ * Code Output
+ * \' single quote
+ * \" doble quote
+ * \\ backslash
+ * \n newline
+ * \r carriage return
+ * \t tab
+ * \b backspace
+ * \f form feed
+ */
+
+var otherStr = "FirstLine\n\t\\SecondLine\nThirdLine"
+console.log(otherStr)
+// --------------------------------------------------------------------------------------
