@@ -19,9 +19,17 @@ n = 9;
  * object
  */
 
-var userName = "Bob"
-userName = 12
+var userName = "Bob";
+userName = 12;
 
-let nameVideo = "freeCodeCamp"
+let nameVideo = "freeCodeCamp";
 
-const pi = 3.1415
+const pi = 3.1415;
+
+// --------------------------------------------------------------------------------------
+var a; //Declaration
+var b = 2; //Assigment Operator
+a = 7;
+b = a;
+
+console.log(a)
