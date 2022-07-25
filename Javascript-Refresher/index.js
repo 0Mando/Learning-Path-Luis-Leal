@@ -72,3 +72,16 @@ var x = 87;
 // x = x + 1;
 x++; // 88
 x--; // 87
+
+// --------------------------------------------------------------------------------------
+// Decimal numbers
+var nDeciaml = 9.18
+
+// Multiply numbers
+var product = 2.0 * 2.5;
+console.log(product)
+
+var quotientDecimal = 4.4 / 2.0;
+console.log(quotientDecimal);
+
+// --------------------------------------------------------------------------------------
