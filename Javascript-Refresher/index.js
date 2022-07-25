@@ -383,3 +383,28 @@ function golfScore(par, strokes){
 }
 
 console.log(golfScore(5,4));
+// --------------------------------------------------------------------------------------
+function caseInSwitch(value){
+    var answer = "";
+
+    switch(value){
+        case 1:
+            answer = 'alpha';
+            break;
+        case 2:
+            answer = 'beta';
+            break;
+        case 3:
+            answer = 'gamma';
+            break;
+        case 4:
+            answer = 'delta';
+            break;
+        default:
+            answer = 'stuff';
+            break;
+    }
+    return answer;
+}
+
+console.log(caseInSwitch(3));
