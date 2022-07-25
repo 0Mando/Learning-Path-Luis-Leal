@@ -148,3 +148,19 @@ var myStr = '<a href="http://www.google.com">Google</a>';
 var otherStr = "FirstLine\n\t\\SecondLine\nThirdLine"
 console.log(otherStr)
 // --------------------------------------------------------------------------------------
+var myStr = "This is the start." + "This is the end."
+console.log(myStr)
+
+var ourStr = "First";
+ourStr += "Second";
+
+console.log(ourStr)
+// --------------------------------------------------------------------------------------
+var name = "Luke";
+var sentence = "Hello "+ name + " nice day."
+console.log(sentence)
+// --------------------------------------------------------------------------------------
+var someAdjective = "worthwhile";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+console.log(myStr)
