@@ -167,3 +167,7 @@ console.log(myStr)
 // --------------------------------------------------------------------------------------
 var largeSentence = "Lorem ipsum aehru veaee vaeoruv"
 console.log(largeSentence.length);
+// --------------------------------------------------------------------------------------
+var getACharacter = "Mandalorian";
+console.log(getACharacter[3]);
+// --------------------------------------------------------------------------------------
