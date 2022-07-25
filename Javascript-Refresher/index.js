@@ -320,3 +320,36 @@ function trueOrFalse(option){
 }
 
 console.log(trueOrFalse(true));
+// --------------------------------------------------------------------------------------
+function testEqual(value){
+    if(value == 12){
+        return "Equal";
+    }
+    return "Not equal";
+}
+
+console.log(testEqual(10));
+
+function testStrict(value){
+    if(value === 7){
+        return "Equal";
+    }
+    return "Not equal";
+}
+console.log(testStrict('7'));
+// --------------------------------------------------------------------------------------
+function testSize(num){
+    if(num < 5){
+        return "Tiny";
+    }else if(num < 10){
+        return "Small";
+    }else if(num < 15){
+        return "Medium";
+    }else if(num < 20){
+        return "Large";
+    }else{
+        return "Huge";
+    }
+}
+
+console.log(testSize(7));
