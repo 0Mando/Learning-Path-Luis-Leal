@@ -124,3 +124,7 @@ w /= 3;
 // Declare String Variables
 var firstName = "Alan"
 var lastName = "Turing"
+
+// --------------------------------------------------------------------------------------
+// var str = "I am a "double quoted" string inside "double quotes"";
+var str = "I am a \"double quoted\" string inside \"double quotes\"";
