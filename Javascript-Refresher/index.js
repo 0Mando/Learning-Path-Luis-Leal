@@ -276,3 +276,16 @@ function myOutfit(){
 
 console.log(myOutfit());
 console.log(outfit);
+
+// --------------------------------------------------------------------------------------
+function minusSeven(n){
+    return n - 7;
+}
+
+console.log(minusSeven(10));
+
+function timesFive(n){
+    return n * 5;
+}
+
+console.log(timesFive(4));
