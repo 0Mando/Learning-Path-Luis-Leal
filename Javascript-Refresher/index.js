@@ -624,3 +624,15 @@ var product = multiplyAll([
 ]);
 
 console.log(product);
+// --------------------------------------------------------------------------------------
+function ourBoolean(a,b){
+    return a===b ? true : false;
+}
+
+console.log(ourBoolean(5,5));
+
+function checkSign(n){
+    return n > 0 ? "positive" : n < 0 ? "negative" : "zero";
+}
+
+console.log(checkSign(0));
