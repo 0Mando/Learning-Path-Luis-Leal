@@ -657,3 +657,14 @@ const squareList = (arr) => {
     return squaredIntegers
 }
 
+// --------------------------------------------------------------------------------------
+console.log(squareList(realNumbersArray));
+const increment = (function(){
+    return function increment(number, value = 1){
+        return number + value;
+    };
+})();
+
+console.log(increment(5,2));
+console.log(increment(5));
+// --------------------------------------------------------------------------------------
