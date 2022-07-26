@@ -814,3 +814,8 @@ thermos.temperature = 26;
 temp = thermos.temperature;
 console.log(temp);
 // --------------------------------------------------------------------------------------
+import { capitalizeString } from "./string_function";
+
+const cap = capitalizeString("hello!");
+
+console.log(cap);
