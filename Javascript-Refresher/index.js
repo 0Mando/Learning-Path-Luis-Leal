@@ -757,3 +757,13 @@ const half = (function (){
 
 console.log(stats);
 console.log(half(stats));
+// --------------------------------------------------------------------------------------
+const person = {
+    firstName : "Luke",
+    age : 56
+}
+
+const greeting = `Hello my name is ${person.firstName}!
+I am ${person.age} years old`;
+
+console.log(greeting);
