@@ -685,3 +685,75 @@ let arr2;
 })();
 console.log(arr1);
 console.log(arr2);
+// --------------------------------------------------------------------------------------
+var voxel = {x: 3.6, y: 7.4, x: 6.54};
+
+var x = voxel.x;
+var y = voxel.y;
+var z = voxel.z;
+
+// DESTRUCTURING OBJECTS
+const {x : e, y : f, z : g } = voxel;
+
+const AVG_TEMPERATURES = {
+    today : 77.5,
+    tomorrow : 79
+};
+
+function getTempOfTomorrow(avgTemperatures){
+    'use strict';
+    const {tomorrow : tempOfTomorrow} = avgTemperatures;
+    return tempOfTomorrow;
+}
+
+console.log(getTempOfTomorrow(AVG_TEMPERATURES));
+// --------------------------------------------------------------------------------------
+const LOCAL_FORECAST = {
+    today : {
+        min : 72,
+        max : 83
+    },
+    tomorrow : {
+        min : 73.3,
+        max : 84.6
+    }
+}
+
+function getMaxOfTomorrow(forecast){
+    'use strict';
+
+    const { tomorrow : { max : maxOfTomorrow }} = forecast;
+
+    return maxOfTomorrow;
+}
+
+console.log(getMaxOfTomorrow(LOCAL_FORECAST));
+
+const source = [1,2,3,4,5,6,7,8,9,10];
+
+function removeFirstTwo(list){
+    const [ , , ...arr] = list;
+    return arr;
+}
+
+const arr = removeFirstTwo(source);
+console.log(arr);
+console.log(source);
+
+const stats = {
+    max : 56.78,
+    standard_deviation : 4.34,
+    median : 34.54,
+    mode : 23.87,
+    min : -0.75,
+    average : 35.85
+};
+
+const half = (function (){
+    return function half({max, min}){
+        return (max + min) / 2.0;
+    }
+})();
+
+console.log(stats);
+console.log(half(stats));
