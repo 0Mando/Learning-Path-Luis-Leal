@@ -767,3 +767,50 @@ const greeting = `Hello my name is ${person.firstName}!
 I am ${person.age} years old`;
 
 console.log(greeting);
+// --------------------------------------------------------------------------------------
+class SpaceShuttle{
+    constructor(targetPlanet){
+        this.targetPlanet = targetPlanet;
+    }
+}
+
+var zeus = new SpaceShuttle('Jupiter');
+console.log(zeus.targetPlanet);
+
+function makeClass(){
+    class Vegetable{
+        constructor (name){
+            this.name = name;
+        }
+    }
+    return Vegetable;
+}
+
+const Vegetable = makeClass();
+const carrot = new Vegetable('carrot');
+console.log(carrot.name);
+
+function createClass(){
+    class Thermostat{
+        constructor(temp){
+            this._temp = 5/9 * (temp - 32);
+        }
+
+        get temperature(){
+            return this._temp;
+        }
+
+        set temperature(updateTemp){
+            this._temp = updateTemp;
+        }
+    }
+    return Thermostat;
+}
+
+const Thermostat = createClass();
+const thermos = new Thermostat(76);
+let temp = thermos.temperature;
+thermos.temperature = 26;
+temp = thermos.temperature;
+console.log(temp);
+// --------------------------------------------------------------------------------------
