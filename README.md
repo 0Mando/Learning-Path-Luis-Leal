@@ -27,3 +27,5 @@ Git Section
     * [Fork](https://github.com/0Mando/Cerrajeria)
 ---
 Javascript Section
+* [Javascript-Refresher](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/Javascript-Refresher)
+* [RXJS-Introducction](https://github.com/0Mando/Learning-Path-Luis-Leal/tree/main/RxJS%20Crash%20Course)
